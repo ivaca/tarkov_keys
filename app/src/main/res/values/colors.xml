@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="black">#000000</color>
+    <color name="main">#191C1F</color>
+    <color name="main2">#1E324D</color>
+    <color name="transparent">#001E324D</color>
+    <color name="search">#070F19</color>
+    <color name="white">#FFFFFF</color>
+    <color name="whiteop">#B3FFFFFF</color>
+    <color name="background_">#0e0e0e</color>
+    <color name="background_card">#1e1e1e</color>
+    <color name="background_card2">#323232</color>
+    <color name="green">#27cf75</color>
+</resources>

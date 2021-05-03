@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+android:background="@color/background_"
+    android:id="@+id/rellay"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    >
+
+
+
+    <EditText
+
+        android:layout_marginTop="20dp"
+        android:id="@+id/searchEdit"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/background_card"
+        android:inputType="text"
+        android:layout_marginLeft="15dp"
+        android:gravity="center"
+        android:layout_marginRight="15dp"
+        android:textColor="@color/white"
+        android:hint="Try to search"
+        android:textColorHint="@color/whiteop"
+android:fontFamily="@font/segoeuil"
+        />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/recyclerView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        android:scrollbarThumbVertical="@drawable/scrollbar"
+    android:padding="4dp"
+    android:layout_marginTop="83dp"
+android:scrollbars="vertical"
+    >
+
+</androidx.recyclerview.widget.RecyclerView>
+
+    <TextView
+       android:layout_marginHorizontal="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textSize="12dp" android:fontFamily="@font/segoeui"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+
+        android:text="Item information and images are provided by The Official Escape from Tarkov Wiki under CC BY-NC-SA 3.0 license"></TextView>
+
+    </RelativeLayout>
